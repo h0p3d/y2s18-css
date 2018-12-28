@@ -1,1 +1,54 @@
+/* cool color scheme website https://coolors.co/70d6ff-545e75-a7cced-304d6d-82a0bc */
+*{ box-sizing: border-box; 
+	}
+html {
+	background-color: #82a0bc;
+}
 
+body {
+	color: #545e75; 
+	background-color: #a7cced; 
+	font-size: 12px;
+	margin-left: 0px;
+	}
+.content{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	width:500px;
+	margin: 5px;
+	padding: 0px 15px 10px 15px;
+	border: 2px dashed white;
+}
+#fav1{color:#545e75; 
+	background-color:#a7cced; }
+#fav3{color:#545e75; 
+	background-color:#a7cced; }
+#fav5{color:#304d6d; 
+	background-color:#a7cced; }
+a { color:#304d6d; }
+.sidebar{		
+		position: absolute;
+		background-color: #82a0bc;
+		top: 0px;
+		width: 200px;
+		height:100%;
+		padding: 10px 10px 10px 10px;
+		margin-left:0px;}
+.sidebar p { background-color:#a7cced ; 
+		font-family: "Arial black", serif;
+		}
+.title {
+	background-color: #a7cced;
+	font-size: 40px;
+	height: 60px;
+	width: 100%;
+	border-bottom: 4px solid grey;
+	padding-left: 5px;
+}
+.container {position: relative;
+	background-color: #304d6d;
+			height: 1000px;}
+/* three styles of css -inline, separate file (for multiple pages), top of the page*/
